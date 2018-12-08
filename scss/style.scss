@@ -98,65 +98,11 @@ color:$color-primary;
   padding-left: 10px;
 }
 
-/*================================*/
-/* Form */
-/*================================*/
-
-.form__label--hidden,.form__input,.btn--default{
-	display:block;
-	width:90%;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-.form__input {
-	border-width: 0px 0px 4px 0px;
-	border-color:$color-primary;
-	border-style:solid;
-    margin-bottom: 25px;
-}
-
-.form__input{
-padding-left:10px;
- padding-bottom: 10px;
-}
-
-.form button {
-	background-color: $color-primary;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-width: 0px;
-	text-transform:uppercase;
-	color:white;
-	font-weight:700;
-	border-radius:5px;
-}
-
-.form__label--hidden {
-  display: none;
-}
 
 /*================================*/
 /* Button style */
 /*================================*/
 
-.theme__colors {
-	border-radius:5px;
-	width:90%;
-	margin-left: 10px;
-	margin-right: 10px;
-	display:block;
-}
-
-.grid__row button {
-	text-transform:uppercase;
-	color:white;
-	font-weight:700;
-	border-width: 0px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-bottom:20px;
-}
 
 .btn--default {
 	background-color: $color-primary;

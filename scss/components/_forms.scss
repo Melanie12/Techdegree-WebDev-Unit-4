@@ -1,0 +1,38 @@
+
+/*================================*/
+/* Form */
+/*================================*/
+
+.form__label--hidden,.form__input,.btn--default{
+	display:block;
+	width:90%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.form__input {
+	border-width: 0px 0px 4px 0px;
+	border-color:#7ee7ee;
+	border-style:solid;
+    margin-bottom: 25px;
+}
+
+.form__input{
+padding-left:10px;
+ padding-bottom: 10px;
+}
+
+.form button {
+	background-color: #7ee7ee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 0px;
+	text-transform:uppercase;
+	color:white;
+	font-weight:700;
+	border-radius:5px;
+}
+
+.form__label--hidden {
+  display: none;
+}
