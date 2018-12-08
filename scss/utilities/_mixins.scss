@@ -1,0 +1,10 @@
+@mixin grid { 
+
+	padding : 5px 0 5px 5px;
+	margin-top:5px;
+}
+
+@mixin flex {
+display:flex;
+flex-direction:row;
+}
