@@ -278,8 +278,12 @@
     flex: 1;
   }
 
-  .grid__col--4, .grid__col--5 {
+  .grid__col--4, .grid__col--5, .centered {
     flex: 0.7;
+  }
+
+  grid__col--7 {
+    justify-content: center;
   }
 }
 
