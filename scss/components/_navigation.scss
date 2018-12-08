@@ -1,0 +1,24 @@
+.nav{
+list-style:none;
+margin-bottom:80px;
+}
+
+.nav__item {
+	color:#000000;
+	display: block;
+	width: 90%;
+	padding-bottom: 20px;
+}
+
+
+.nav__item a{
+	text-decoration:none;
+}
+
+.nav__item a:hover{
+	color:white;
+	background-color:#7ee7ee;	
+	border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

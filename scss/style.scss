@@ -6,10 +6,6 @@
 
 /*# sourceMappingURL=style.css.map */
 
-/*===============================================================================*/
-/* Mobile 480px */
-/*===============================================================================*/
-
 
 .container {
 	min-width: 480px;
@@ -23,35 +19,6 @@
 	}
 }
 
-.grid__col--9{	
-    display: block;
-    margin: auto;
-    text-align: center;
-}
-
-.nav{
-list-style:none;
-margin-bottom:80px;
-}
-
-.nav__item {
-	color:#000000;
-	display: block;
-	width: 90%;
-	padding-bottom: 20px;
-}
-
-.nav__item a{
-	text-decoration:none;
-}
-
-.nav__item a:hover{
-	color:white;
-	background-color:$color-primary;	
-	border-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 
 .headline--primary {
 color:$color-primary;
@@ -68,29 +35,18 @@ color:$color-primary;
 color:$color-primary;
 }
 
-/*================================*/
-/* Images */
-/*================================*/
-
 .img--logo{
-@extend %logo;
+@media #{$brk-desktop} {
+margin-left:30px;
+ }
 }
 
-.img--frame {
-@extend %frame;
-}
-
-.img--avatar, .img--frame {
-	margin :10px auto 20px auto;
-	display:block;
-}
 
 /*================================*/
 /* Blockquote */
 /*================================*/
 
-.blockquote
-{
+.blockquote{
   font-style: italic;
   font-size: 20px;
   margin-left: 20px;
@@ -102,7 +58,6 @@ color:$color-primary;
 /*================================*/
 /* Button style */
 /*================================*/
-
 
 .btn--default {
 	background-color: $color-primary;
@@ -123,6 +78,7 @@ color:$color-primary;
 .btn--info {
 	background-color:$color-info;
 }
+
 
 /*================================*/
 /* Grid style */
@@ -180,9 +136,7 @@ background-color:$color-warning;
     justify-content: space-around;
 }
 
-.img--logo {
-	margin-left:30px;
-}
+
  
 .grid__col--12 {
 	@include flex;

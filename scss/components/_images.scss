@@ -1,0 +1,17 @@
+/*================================*/
+/* Images */
+/*================================*/
+
+.img--logo{
+@extend %logo;
+ 
+}
+
+.img--frame {
+@extend %frame;
+}
+
+.img--avatar, .img--frame {
+	margin :10px auto 20px auto;
+	display:block;
+}
