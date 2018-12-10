@@ -21,6 +21,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 20px;
+
 }
 
 /*================================*/
@@ -47,6 +48,7 @@
 
 .form button {
   background-color: #7ee7ee;
+  width:100%;
   padding-top: 10px;
   padding-bottom: 10px;
   border-width: 0px;
@@ -54,6 +56,7 @@
   color: white;
   font-weight: 700;
   border-radius: 5px;
+  margin:auto;
 }
 
 .form__label--hidden {
@@ -82,17 +85,19 @@
 .nav__item {
   color: #000000;
   display: block;
-  width: 90%;
+  width: 100%;
   padding-bottom: 20px;
 }
 
 .nav__item a {
   text-decoration: none;
+  width:100%;
 }
 
 .nav__item a:hover {
   color: white;
   background-color: #7ee7ee;
+  width:100%;
   border-radius: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -168,22 +173,38 @@
 /*================================*/
 .btn--default {
   background-color: #7ee7ee;
+    width:100%;
+	margin-left:auto;
+	margin-right:auto;
+ 
 }
 
 .btn--success {
   background-color: #4ca64c;
+  width:100%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .btn--error {
   background-color: #e5593f;
+  width:100%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .btn--warning {
   background-color: #e98d52;
+  width:100%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .btn--info {
   background-color: #be68be;
+  width:100%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 /*================================*/
@@ -193,47 +214,71 @@
   background-color: #4ca64c;
   padding: 5px 0 5px 5px;
   margin-top: 10px;
+  width:100%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .grid__col--6.theme__colors {
   background-color: #2077e6;
   padding: 5px 0 5px 5px;
   margin-top: 5px;
+  width:100%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .grid__row {
   margin-bottom: 30px;
   margin-top: 25px;
+  width:100%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .grid__col--4.theme__colors {
   background-color: #7ee7ee;
   padding: 5px 0 5px 5px;
   margin-top: 5px;
+  width:100%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .grid__col--3.theme__colors {
   background-color: #be68be;
   padding: 5px 0 5px 5px;
   margin-top: 5px;
+  width:100%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .grid__col--5.theme__colors {
   background-color: #4ca64c;
   padding: 5px 0 5px 5px;
   margin-top: 5px;
+  width:100%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .grid__col--7.theme__colors {
   background-color: #e5593f;
   padding: 5px 0 5px 5px;
   margin-top: 5px;
+  width:100%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .grid__col--8.theme__colors {
   background-color: #e98d52;
   padding: 5px 0 5px 5px;
   margin-top: 5px;
+  width:100%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 /*===============================================================================*/
